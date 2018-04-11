@@ -112,9 +112,15 @@
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
     currentSlide = n;
-    
+    var Q1 = document.querySelector('.Q1'),
+		Q2 = document.querySelector('.Q2'),
+		Q3 = document.querySelector('.Q3');
     if (currentSlide === 0) {
       previousButton.style.display = "none";
+		submitButton.style.display = "none";
+		Q1.style.display = "block";
+		Q2.style.display = "none";
+		Q3.style.display = "none";
     } else {
       previousButton.style.display = "inline-block";
     }
@@ -122,9 +128,15 @@
     if (currentSlide === slides.length - 1) {
       nextButton.style.display = "none";
       submitButton.style.display = "inline-block";
-    } else {
+		Q1.style.display = "none";
+		Q2.style.display = "none";
+		Q3.style.display = "block";
+    } else if(currentSlide === 1) {
       nextButton.style.display = "inline-block";
       submitButton.style.display = "none";
+		Q1.style.display = "none";
+		Q2.style.display = "block";
+		Q3.style.display = "none";
     }
   }
 
