@@ -3,7 +3,7 @@
 	(function() {
   const myQuestions = [
     {
-      question: "When dose the story happend?",
+      question: "When does the plot take place?",
       answers: {
         a: "In the 24rd century",
         b: "In the 23rd century",
@@ -15,7 +15,7 @@
 	  
 	  
     {
-      question: "Who is severely wounded in the leg and mistakenly reported killed in action?",
+      question: "Who gets severely injured in the leg and mistakenly reported killed in action?",
       answers: {
         a: "Dizzy",
         b: "Ace",
@@ -28,11 +28,11 @@
 	  
 	  
     {
-      question: " what kind of the tools Rico used to arrives and threatens the Bugs ?",
+      question: " What kind of weapon does Rico uses to scare and threat the Bugs?",
       answers: {
         a: "Knife",
         b: "firearms",
-        c: " a small nuclear bomb"
+        c: " A small nuclear bomb"
       },
       correctAnswer: "c"
     }
